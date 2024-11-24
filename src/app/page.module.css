@@ -1,0 +1,27 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search p {
+  font-family: cursive;
+  font-size: xx-large;
+  align-items: center;
+}
+.bar {
+  display: flex;
+  flex-direction: row;
+}
+.bar input {
+  width: 22vw;
+  height: 40px;
+  border-radius: 5px;
+}
+.add {
+  position: relative;
+  font-size: x-large;
+  margin-left: 90%;
+}
+.add:hover {
+  cursor: pointer;
+}
