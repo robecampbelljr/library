@@ -16,6 +16,9 @@
   width: 22vw;
   height: 40px;
   border-radius: 5px;
+  padding-left: 10px;
+  font-size: large;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .add {
   position: relative;
@@ -24,4 +27,8 @@
 }
 .add:hover {
   cursor: pointer;
+  font-weight: bolder;
+}
+.add:active {
+  transform: translateY(+1px);
 }
